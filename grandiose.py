@@ -11,7 +11,7 @@ def FindSynonym(word="operate"):
    querystring = dict(word=word);
 
    headers = {
-      "x-rapidapi-key": getenv("myapikey"), #please subscribe to the url above to get your own API key.
+      "x-rapidapi-key": getenv("myapikey"), #please subscribe to the RAPID URL. Once inside, find the url above to get your own API key.
       "x-rapidapi-host": getenv("myapihost") #also subscribe to get the host.
    }
 
