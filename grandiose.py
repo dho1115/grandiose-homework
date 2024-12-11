@@ -19,5 +19,8 @@ def FindSynonym(word="operate"):
 
    return choice(response.json()["synonyms"]);
 
-def result(randomWord, synonym):
-   return f"My laptop is so much {synonym} I'm surprised yours can {randomWord}!!!"
+result = lambda randomWord, synonym: f"My laptop is so much {synonym} I'm surprised yours can {randomWord}!!!" #This will replace def result(randomWorld, synonym) below.
+
+# def result(randomWord, synonym):
+#    return f"My laptop is so much {synonym} I'm surprised yours can {randomWord}!!!" # Will replace with the much simpler lambda.
+
